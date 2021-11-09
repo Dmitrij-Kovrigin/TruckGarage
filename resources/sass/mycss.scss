@@ -1,0 +1,80 @@
+.main_title {
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+
+    // span {
+    //     display: flex;
+    //     transition: transform 0.8s;
+    //     transform-style: preserve-3d;
+    // }
+
+    span:hover {
+        font-weight: 100;
+        color: blue;
+    }
+}
+
+
+.truck_image {
+    height: 100px;
+    width: auto;
+}
+
+.truck_image_show {
+    height: 200px;
+    width: auto;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.background-grey {
+    background-color: grey;
+}
+
+
+
+.text-color-white {
+    color: white;
+}
+
+#confirm-modal {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(49, 49, 49, 0.8);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .buttons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.body-modal {
+    overflow: hidden;
+}
+
+
+.card-header {
+    width: 90%;
+    padding: 0.75rem 0 0 3rem;
+    margin-bottom: 0;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .front-sort {
+        max-width: 40%;
+    }
+}
